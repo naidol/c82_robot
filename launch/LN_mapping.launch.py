@@ -25,8 +25,8 @@ def generate_launch_description():
             get_package_share_directory('c82_robot'),
             'configs/',
             param_file_name))
-
-    slam_launch_file_dir = os.path.join(get_package_share_directory('slam_toolbox'), 'launch')
+    print(param_dir)
+    #slam_launch_file_dir = os.path.join(get_package_share_directory('slam_toolbox'), 'launch')
     print(param_dir)
 
     return LaunchDescription([
